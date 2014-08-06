@@ -4,9 +4,9 @@
   "category": ["system-editor", "ui"],
   "context": "client",
   "date": "2014/08/05",
-  "description": "The best PA mod ever.",
+  "description": "Variation of the metal planet with lots of craters, depending on water height",
   "display_name": "Devastated Metal Biome",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/wip-devastated-metal-biome.62666/",
   "identifier": "com.wondible.pa.devastated_metal_biome.client",
   "priority": 100,
   "scenes": {
