@@ -519,10 +519,10 @@
       "op": "BO_Subtract", 
       "planet_size_range": [
         200, 
-        1650
+        null
       ], 
       "pole_distance_range": [
-        300, 
+        400, 
         null
       ], 
       "proj": "BP_LongitudePinch", 
@@ -554,11 +554,11 @@
       "op": "BO_Subtract", 
       "planet_size_range": [
         200, 
-        1650
+        null
       ], 
       "pole_distance_range": [
         0, 
-        300
+        400
       ], 
       "proj": "BP_Bend", 
       "scale": [
