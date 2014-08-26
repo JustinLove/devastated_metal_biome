@@ -87,13 +87,16 @@ module.exports = function(grunt) {
               "simplex_scale": 10
             }
           })
+          spec.features.forEach(function(feature) {
+            feature.elevation_range = [ -1.0, 1.0 ]
+          })
           spec.brushes.forEach(function(brush) {
             brush.elevation_range = [ -1.0, 1.0 ]
 
             if (brush.brush_spec == "/pa/terrain/generic/brushes/unit_cannon_wreckage.json") {
               brush.layer = 7
               brush.max_instances = 10
-              brush.noise_range = [0, 1]
+              brush.noise_range = [0, 0.1]
               brush.planet_size_range = [200, null]
             }
           })
