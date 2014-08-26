@@ -1,14 +1,13 @@
 {
   "author": "wondible",
-  "build": "69721",
-  "category": ["system-editor", "ui"],
+  "build": "70289",
+  "category": ["system-editor", "ui", "biome"],
   "context": "client",
-  "date": "2014/08/05",
+  "date": "2014/08/26",
   "description": "Variation of the metal planet with lots of craters, depending on water height",
   "display_name": "Devastated Metal Biome",
   "forum": "https://forums.uberent.com/threads/wip-devastated-metal-biome.62666/",
   "identifier": "com.wondible.pa.devastated_metal_biome.client",
-  "priority": 100,
   "scenes": {
     "system_editor": [
       "coui://ui/mods/devastated_metal_biome/devastated_metal_biome.js"
@@ -17,4 +16,3 @@
   "signature": "not yet implemented",
   "version": "0.1.0"
 }
-
