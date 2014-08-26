@@ -7,9 +7,23 @@ var stream = 'stable'
 var media = require('./lib/path').media(stream)
 
 module.exports = function(grunt) {
+  var craters = grunt.file.readJSON('craters.json')
+
   // Project configuration.
   grunt.initConfig({
     copy: {
+      biome: {
+        files: [
+          {
+            src: media + 'pa/terrain/metal.json',
+            dest: 'pa/terrain/devastated_metal.json',
+          },
+          {
+            src: media + 'pa/terrain/metal/metal.json',
+            dest: 'pa/terrain/metal/devastated_metal.json',
+          },
+        ],
+      },
       mod: {
         files: [
           {
@@ -52,12 +66,38 @@ module.exports = function(grunt) {
       },
     },
     proc: {
-      health: {
-        filename_regexp: null,
+      type: {
+        filename_regexp: 'pa/terrain/devastated_metal.json',
         process: function(spec) {
-          if (spec.max_health) {
-            spec.max_health *= 2
-          }
+          spec.biomes[0].spec = '/pa/terrain/metal/devastated_metal.json'
+          spec.name = 'devastated_metal'
+          spec.ignore_height_range = false
+        }
+      },
+      biome: {
+        filename_regexp: 'pa/terrain/metal/devastated_metal.json',
+        process: function(spec) {
+          spec.layers.push({
+            "note": "7",
+            "disable": false,
+            "noise": {
+              "scale": 1,
+              "zoom": 2,
+              "type": "simplex",
+              "simplex_scale": 10
+            }
+          })
+          spec.brushes.forEach(function(brush) {
+            brush.elevation_range = [ -1.0, 1.0 ]
+
+            if (brush.brush_spec == "/pa/terrain/generic/brushes/unit_cannon_wreckage.json") {
+              brush.layer = 7
+              brush.max_instances = 10
+              brush.noise_range = [0, 1]
+              brush.planet_size_range = [200, null]
+            }
+          })
+          spec.brushes = spec.brushes.concat(craters)
         }
       }
     }
