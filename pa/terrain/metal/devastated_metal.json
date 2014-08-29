@@ -74,6 +74,16 @@
         "type": "simplex",
         "simplex_scale": 10
       }
+    },
+    {
+      "note": "7",
+      "disable": false,
+      "noise": {
+        "scale": 1,
+        "zoom": 2,
+        "type": "simplex",
+        "simplex_scale": 10
+      }
     }
   ],
   "brushes": [
@@ -686,6 +696,78 @@
         -1,
         0
       ],
+      "fixed_orient": true,
+      "rotation": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "layer": 7,
+      "noise_range": [
+        0.1,
+        0.98
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        200,
+        null
+      ],
+      "pole_distance_range": [
+        0,
+        400
+      ],
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.5,
+      "threshold": 0,
+      "weight": 1,
+      "weight_hard": true
+    },
+    {
+      "note": "aligned, away from poles",
+      "bias": 1,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_crater_01.json",
+      "fixed_orient": true,
+      "rotation": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "layer": 7,
+      "noise_range": [
+        0.1,
+        0.98
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        200,
+        null
+      ],
+      "pole_distance_range": [
+        400,
+        null
+      ],
+      "proj": "BP_LongitudePinch",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.5,
+      "threshold": 0,
+      "weight": 1,
+      "weight_hard": true
+    },
+    {
+      "note": "unaligned, near poles",
+      "bias": 1,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_crater_01.json",
       "fixed_orient": true,
       "rotation": [
         0,

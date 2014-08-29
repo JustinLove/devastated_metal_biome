@@ -3,10 +3,6 @@
     "note": "aligned, away from poles",
     "bias": 1, 
     "brush_spec": "/pa/terrain/metal/brushes/metal_crater_01.json", 
-    "elevation_range": [
-      -1.0, 
-      0.0
-    ], 
     "fixed_orient": true, 
     "rotation": [0, 90, 180, 270], 
     "layer": 7, 
@@ -38,10 +34,6 @@
     "note": "unaligned, near poles",
     "bias": 1, 
     "brush_spec": "/pa/terrain/metal/brushes/metal_crater_01.json", 
-    "elevation_range": [
-      -1.0, 
-      0.0
-    ], 
     "fixed_orient": true, 
     "rotation": [0, 90, 180, 270], 
     "layer": 7, 

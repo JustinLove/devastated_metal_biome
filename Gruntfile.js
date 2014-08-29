@@ -91,8 +91,6 @@ module.exports = function(grunt) {
             feature.elevation_range = [ -1.0, 1.0 ]
           })
           spec.brushes.forEach(function(brush) {
-            brush.elevation_range = [ -1.0, 1.0 ]
-
             if (brush.brush_spec == "/pa/terrain/generic/brushes/unit_cannon_wreckage.json") {
               brush.layer = 7
               brush.max_instances = 10
@@ -139,7 +137,7 @@ module.exports = function(grunt) {
   grunt.registerTask('server', ['copy:mod', 'copy:modinfo']);
 
   // Default task(s).
-  grunt.registerTask('default', ['jsonlint']);
+  grunt.registerTask('default', ['proc', 'jsonlint']);
 
 };
 

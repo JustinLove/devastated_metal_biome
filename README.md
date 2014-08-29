@@ -1,8 +1,8 @@
 # Devastated Metal Biome
 
-Adds a lot of craters (and a number of unit cannons, because, hey, it was a war zone) Devastation varies with water height; if you convert a regular metal planet it has water height 0 and you won't see any craters.
+Adds a lot of craters (and a number of unit cannons, because, hey, it was a war zone)  This biome type can also have height variation (bent out of shape)
 
-Additional biome - this one isn't shipped with the game, and a server mod will be required to play it.  Repo is client mod currently; change the type and identifier if you are copying it over.
+Additional biome - this one isn't shipped with the game, and a server mod will be required to play it.  The repo is set up as a client mod, the grunt task 'server' will copy files over.
 
 ## Development
 
@@ -12,8 +12,10 @@ PA will upload **all files** in the mod directory, including `node_modules` and 
 
 ### Available Tasks
 
-- copy:unitFiles - copy json files into the mod, with optional filename regexp
-- copy:mod - copy the mod files into server_mods
-- proc:health - process unit files; set up for double health as an example.  Expectation is that several proc:X tasks will me made.
+- copy:biome - copy the stock metal files into the mod directory
+- proc - devastate the biome files
 - jsonlint - lint all the mod json files
-- default: jsonlint
+- copy:mod - copy the mod files into server_mods
+- copy:modinfo - copy and update modinfo.json into server_mods
+- server - copy all required files into server_mods (combines above two)
+- default: proc, jsonlint
