@@ -2,10 +2,14 @@
   "name": "devastated_metal",
   "ambient_sound": "/SE/Ambience/Amb_Planet_Metal",
   "ignore_height_range": false,
+  "radius_range": [
+    500,
+    1300
+  ],
   "biomes": [
     {
       "spec": "/pa/terrain/metal/devastated_metal.json",
-      "temperture": [
+      "temperature": [
         0.2,
         1,
         1
@@ -92,9 +96,9 @@
         1
       ],
       "scale": [
-        2,
-        2,
-        2
+        1,
+        1,
+        1
       ],
       "fixed_orient": true,
       "rotation": 0,
@@ -117,9 +121,9 @@
         -1
       ],
       "scale": [
-        2,
-        2,
-        2
+        1,
+        1,
+        1
       ],
       "fixed_orient": true,
       "rotation": 0,
@@ -431,181 +435,6 @@
       "weight_scale": 1,
       "planet_size_range": [
         350,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        1,
-        0,
-        0.17
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": 90,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        -1,
-        0,
-        0.17
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": 90,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        1,
-        0,
-        -0.17
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": 90,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        -1,
-        0,
-        -0.17
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": 90,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        1,
-        1,
-        0.24
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": -45,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        -1,
-        -1,
-        0.24
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": -45,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        1,
-        -1,
-        0.24
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": 45,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
         null
       ]
     },
@@ -631,81 +460,6 @@
       "weight_scale": 1,
       "planet_size_range": [
         500,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        1,
-        1,
-        -0.24
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": -45,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        -1,
-        -1,
-        -0.24
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": -45,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
-        null
-      ]
-    },
-    {
-      "note": "specific brush placement",
-      "position": [
-        1,
-        -1,
-        -0.24
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "fixed_orient": true,
-      "rotation": 45,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "op": "BO_Add",
-      "proj": "BP_LongitudePinch",
-      "weight": 1,
-      "weight_hard": true,
-      "weight_scale": 1,
-      "planet_size_range": [
-        700,
         null
       ]
     },

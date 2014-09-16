@@ -72,6 +72,9 @@ module.exports = function(grunt) {
           spec.biomes[0].spec = '/pa/terrain/metal/devastated_metal.json'
           spec.name = 'devastated_metal'
           spec.ignore_height_range = false
+          spec.brushes = spec.brushes.filter(function(brush) {
+            return brush.brush_spec != "/pa/terrain/metal/brushes/metal_weapon_platforms.json"
+          })
         }
       },
       biome: {
@@ -137,7 +140,7 @@ module.exports = function(grunt) {
   grunt.registerTask('server', ['copy:mod', 'copy:modinfo']);
 
   // Default task(s).
-  grunt.registerTask('default', ['proc', 'jsonlint']);
+  grunt.registerTask('default', ['copy:biome', 'proc', 'jsonlint']);
 
 };
 

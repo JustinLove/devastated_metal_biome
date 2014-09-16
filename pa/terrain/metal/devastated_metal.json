@@ -74,16 +74,6 @@
         "type": "simplex",
         "simplex_scale": 10
       }
-    },
-    {
-      "note": "7",
-      "disable": false,
-      "noise": {
-        "scale": 1,
-        "zoom": 2,
-        "type": "simplex",
-        "simplex_scale": 10
-      }
     }
   ],
   "brushes": [
@@ -113,10 +103,6 @@
       "scale": [
         1,
         1,
-        1
-      ],
-      "elevation_range": [
-        -1,
         1
       ]
     },
@@ -154,10 +140,6 @@
         1,
         1,
         1
-      ],
-      "elevation_range": [
-        -1,
-        1
       ]
     },
     {
@@ -187,10 +169,6 @@
         1,
         1,
         1
-      ],
-      "elevation_range": [
-        -1,
-        1
       ]
     },
     {
@@ -219,11 +197,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 5,
@@ -256,11 +230,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 5,
@@ -290,11 +260,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 5,
@@ -325,31 +291,27 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 3,
       "weight": 1,
       "weight_hard": true,
       "weight_scale": 3,
-      "threshold": 0,
+      "threshold": 1,
       "sample_scale": 1,
-      "bias": 2,
+      "bias": 3,
       "noise_range": [
-        0.5,
+        0,
         1
       ],
       "op": "BO_Add",
       "proj": "BP_LongitudePinch",
       "fixed_orient": true,
-      "rotation": 270,
+      "rotation": 90,
       "pole_distance_range": [
-        350,
-        500
+        420,
+        600
       ],
       "latitude_snap": 120,
       "longitude_snap": 1000,
@@ -362,10 +324,6 @@
       "planet_size_range": [
         440,
         null
-      ],
-      "elevation_range": [
-        -1,
-        1
       ]
     },
     {
@@ -397,11 +355,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 5,
@@ -432,11 +386,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 5,
@@ -467,11 +417,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 5,
@@ -502,11 +448,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 5,
@@ -537,14 +479,11 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
-      "layer": 5,
+      "layer": 0,
+      "note": "(temporarily disabled for PAX build, reset layer to 5)",
       "weight": 2,
       "weight_hard": true,
       "weight_scale": 6,
@@ -572,11 +511,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 5,
@@ -609,11 +544,7 @@
         1,
         1
       ],
-      "scale_variation": 0,
-      "elevation_range": [
-        -1,
-        1
-      ]
+      "scale_variation": 0
     },
     {
       "layer": 7,
@@ -642,91 +573,7 @@
       "planet_size_range": [
         200,
         null
-      ],
-      "elevation_range": [
-        -1,
-        1
       ]
-    },
-    {
-      "note": "aligned, away from poles",
-      "bias": 1,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_crater_01.json",
-      "elevation_range": [
-        -1,
-        0
-      ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "layer": 7,
-      "noise_range": [
-        0.1,
-        0.98
-      ],
-      "op": "BO_Subtract",
-      "planet_size_range": [
-        200,
-        null
-      ],
-      "pole_distance_range": [
-        400,
-        null
-      ],
-      "proj": "BP_LongitudePinch",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.5,
-      "threshold": 0,
-      "weight": 1,
-      "weight_hard": true
-    },
-    {
-      "note": "unaligned, near poles",
-      "bias": 1,
-      "brush_spec": "/pa/terrain/metal/brushes/metal_crater_01.json",
-      "elevation_range": [
-        -1,
-        0
-      ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "layer": 7,
-      "noise_range": [
-        0.1,
-        0.98
-      ],
-      "op": "BO_Subtract",
-      "planet_size_range": [
-        200,
-        null
-      ],
-      "pole_distance_range": [
-        0,
-        400
-      ],
-      "proj": "BP_Bend",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "scale_variation": 0.5,
-      "threshold": 0,
-      "weight": 1,
-      "weight_hard": true
     },
     {
       "note": "aligned, away from poles",
