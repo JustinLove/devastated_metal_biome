@@ -72,6 +72,7 @@ module.exports = function(grunt) {
           spec.biomes[0].spec = '/pa/terrain/metal/devastated_metal.json'
           spec.name = 'devastated_metal'
           spec.ignore_height_range = false
+          delete(spec.radius_range)
           spec.brushes = spec.brushes.filter(function(brush) {
             return brush.brush_spec != "/pa/terrain/metal/brushes/metal_weapon_platforms.json"
           })
@@ -89,9 +90,6 @@ module.exports = function(grunt) {
               "type": "simplex",
               "simplex_scale": 10
             }
-          })
-          spec.features.forEach(function(feature) {
-            feature.elevation_range = [ -1.0, 1.0 ]
           })
           spec.brushes.forEach(function(brush) {
             if (brush.brush_spec == "/pa/terrain/generic/brushes/unit_cannon_wreckage.json") {

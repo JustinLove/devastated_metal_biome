@@ -2,10 +2,6 @@
   "name": "devastated_metal",
   "ambient_sound": "/SE/Ambience/Amb_Planet_Metal",
   "ignore_height_range": false,
-  "radius_range": [
-    500,
-    1300
-  ],
   "biomes": [
     {
       "spec": "/pa/terrain/metal/devastated_metal.json",
