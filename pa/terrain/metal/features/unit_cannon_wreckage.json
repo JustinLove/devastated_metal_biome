@@ -1,0 +1,12 @@
+{
+  "base_spec": "/pa/terrain/metal/features/base_metal_feature.json",
+  "reclaimable": true,
+  "damageable": true,
+  "max_health": 10000,
+  "metal_value": 1000000000,
+  "path_cost": 500.0,
+  "placement_size": [50, 50],
+  "model": {
+    "filename": "/pa/terrain/generic/fbx/unit_cannon_wreckage.papa"
+  }
+}

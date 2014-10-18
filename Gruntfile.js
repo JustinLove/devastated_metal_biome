@@ -91,15 +91,17 @@ module.exports = function(grunt) {
               "simplex_scale": 10
             }
           })
-          spec.brushes.forEach(function(brush) {
-            if (brush.brush_spec == "/pa/terrain/generic/brushes/unit_cannon_wreckage.json") {
-              brush.layer = 7
-              brush.max_instances = 10
-              brush.noise_range = [0, 0.1]
-              brush.planet_size_range = [200, null]
-            }
+          spec.brushes = spec.brushes.filter(function(brush) {
+            return brush.brush_spec != "/pa/terrain/generic/brushes/unit_cannon_wreckage.json"
           })
           spec.brushes = spec.brushes.concat(craters)
+          uc = JSON.parse(JSON.stringify(spec.features[0]))
+          uc.noise_range = [0.6, 0.61]
+          uc.cluster_count_range = [0, 1]
+          uc.feature_spec = "/pa/terrain/metal/features/unit_cannon_wreckage.json"
+          delete uc.rotation
+          delete uc.fixed_orient
+          spec.features.push(uc)
         }
       }
     }

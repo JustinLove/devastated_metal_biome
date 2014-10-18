@@ -1,10 +1,10 @@
 {
   "author": "wondible",
-  "build": "71937",
+  "build": "73939",
   "category": ["system-editor", "ui", "biome"],
   "context": "client",
-  "date": "2014/09/16",
-  "description": "Variation of the metal planet with lots of craters",
+  "date": "2014/10/17",
+  "description": "Variation of the metal planet with lots of craters and reclaimable unit cannons",
   "display_name": "Devastated Metal Biome",
   "forum": "https://forums.uberent.com/threads/wip-devastated-metal-biome.62666/",
   "identifier": "com.wondible.pa.devastated_metal_biome.client",

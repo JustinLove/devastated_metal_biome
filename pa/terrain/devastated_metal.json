@@ -437,6 +437,181 @@
     {
       "note": "specific brush placement",
       "position": [
+        1,
+        0,
+        0.17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": 90,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        -1,
+        0,
+        0.17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": 90,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        1,
+        0,
+        -0.17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": 90,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        -1,
+        0,
+        -0.17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": 90,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        1,
+        1,
+        0.24
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": -45,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        -1,
+        -1,
+        0.24
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": -45,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        1,
+        -1,
+        0.24
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": 45,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
         -1,
         1,
         0.24
@@ -456,6 +631,81 @@
       "weight_scale": 1,
       "planet_size_range": [
         500,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        1,
+        1,
+        -0.24
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": -45,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        -1,
+        -1,
+        -0.24
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": -45,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
+        null
+      ]
+    },
+    {
+      "note": "specific brush placement",
+      "position": [
+        1,
+        -1,
+        -0.24
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "fixed_orient": true,
+      "rotation": 45,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "weight": 1,
+      "weight_hard": true,
+      "weight_scale": 1,
+      "planet_size_range": [
+        700,
         null
       ]
     },

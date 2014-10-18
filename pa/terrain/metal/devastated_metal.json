@@ -482,8 +482,7 @@
       "scale_variation": 0
     },
     {
-      "layer": 0,
-      "note": "(temporarily disabled for PAX build, reset layer to 5)",
+      "layer": 5,
       "weight": 2,
       "weight_hard": true,
       "weight_scale": 6,
@@ -545,35 +544,6 @@
         1
       ],
       "scale_variation": 0
-    },
-    {
-      "layer": 7,
-      "note": "(Landmark - occurs only once on a planet)",
-      "brush_spec": "/pa/terrain/generic/brushes/unit_cannon_wreckage.json",
-      "op": "BO_Add",
-      "proj": "BP_Bend",
-      "noise_range": [
-        0,
-        0.1
-      ],
-      "threshold": 0,
-      "weight": 1,
-      "weight_hard": true,
-      "bias": 1,
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "pole_distance_range": [
-        300,
-        null
-      ],
-      "max_instances": 10,
-      "planet_size_range": [
-        200,
-        null
-      ]
     },
     {
       "note": "aligned, away from poles",
@@ -1089,6 +1059,27 @@
       "latitude_snap": 100,
       "longitude_snap": 100,
       "feature_spec": "/pa/terrain/metal/features/metal_feature_16.json",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "layer": 6,
+      "op": "BO_Add",
+      "noise_range": [
+        0.6,
+        0.61
+      ],
+      "cluster_size": 15,
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "latitude_snap": 100,
+      "longitude_snap": 100,
+      "feature_spec": "/pa/terrain/metal/features/unit_cannon_wreckage.json",
       "scale": [
         1,
         1,
