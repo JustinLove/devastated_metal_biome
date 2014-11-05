@@ -1,6 +1,8 @@
 # Devastated Metal Biome
 
-Adds a lot of craters (and a number of unit cannons, because, hey, it was a war zone)  This biome type can also have height variation (bent out of shape)
+Adds a lot of craters. This biome type can also have height variation (bent out of shape)
+
+There are unit canons scattered around.  Unlike other biomes where these are mere terrain, these canons can be reclaimed for significant metal.
 
 Additional biome - this one isn't shipped with the game, and a server mod will be required to play it.  The repo is set up as a client mod, the grunt task 'server' will copy files over.
 
