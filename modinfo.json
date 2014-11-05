@@ -7,6 +7,7 @@
   "description": "Variation of the metal planet with lots of craters and reclaimable unit cannons",
   "display_name": "Devastated Metal Biome",
   "forum": "https://forums.uberent.com/threads/wip-devastated-metal-biome.62666/",
+  "icon": "http://wondible.com/pa/icons/devastated_metal_biome.png",
   "identifier": "com.wondible.pa.devastated_metal_biome.client",
   "scenes": {
     "system_editor": [

@@ -31,6 +31,7 @@ module.exports = function(grunt) {
               'LICENSE.txt',
               'README.md',
               'CHANGELOG.md',
+              'ui/main/**',
               'pa/**'],
             dest: modPath,
           },
