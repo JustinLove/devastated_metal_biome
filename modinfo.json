@@ -3,8 +3,8 @@
   "build": "74525",
   "category": ["system-editor", "ui", "biome"],
   "context": "client",
-  "date": "2014/11/04",
-  "description": "Variation of the metal planet with lots of craters and reclaimable unit cannons",
+  "date": "2014/11/29",
+  "description": "Create metal planets with lots of craters and reclaimable unit cannons.  Separate server mod required to play.",
   "display_name": "Devastated Metal Biome",
   "forum": "https://forums.uberent.com/threads/rel-client-server-devastated-metal-biome.65789/",
   "icon": "http://wondible.com/pa/icons/devastated_metal_biome.png",
@@ -15,5 +15,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
