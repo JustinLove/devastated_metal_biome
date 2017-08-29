@@ -66,6 +66,13 @@
       }
     },
     {
+      "note": "7 (user brushes)",
+      "disable": false,
+      "noise": {
+        "type": "ring"
+      }
+    },
+    {
       "note": "7",
       "disable": false,
       "noise": {
@@ -107,6 +114,7 @@
       ]
     },
     {
+      "group": "basic",
       "layer": 4,
       "weight": 1,
       "weight_hard": true,
@@ -172,6 +180,7 @@
       ]
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 1,
       "weight_hard": true,
@@ -200,6 +209,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 1,
       "weight_hard": true,
@@ -233,6 +243,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 1,
       "weight_hard": true,
@@ -263,6 +274,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 1,
       "weight_hard": true,
@@ -294,6 +306,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_hard": true,
@@ -327,6 +340,7 @@
       ]
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 2,
       "weight_hard": true,
@@ -358,6 +372,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 2,
       "weight_hard": true,
@@ -389,6 +404,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 2,
       "weight_hard": true,
@@ -420,6 +436,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 2,
       "weight_hard": true,
@@ -451,6 +468,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 2,
       "weight_hard": true,
@@ -482,6 +500,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 2,
       "weight_hard": true,
@@ -513,6 +532,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 5,
       "weight": 2,
       "weight_hard": true,
@@ -544,6 +564,306 @@
         1
       ],
       "scale_variation": 0
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t1_large_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t1_large_3_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t1_large_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t1_large_8_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t1_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t1_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t1_pit_2_ramp.json",
+      "op": "BO_Subtract",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_large_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_large_bend.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_large_long.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_medium_3_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_medium_bend.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_medium_long.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_small_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t2_small_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t3_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t3_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t3_small.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t3_small_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t3_small_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t3_small_3_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/metal/brushes/metal_t3_small_2x_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_LongitudePinch",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
     },
     {
       "note": "aligned, away from poles",
@@ -1137,8 +1457,8 @@
       "count": 1,
       "pole_orient": true,
       "pole_distance_range": [
-        650,
-        1000
+        610,
+        200
       ],
       "material_spec": "/pa/terrain/metal/decals/metal_decal_02.json"
     },
@@ -1166,8 +1486,8 @@
       "count": 1,
       "pole_orient": true,
       "pole_distance_range": [
-        650,
-        1000
+        610,
+        200
       ],
       "material_spec": "/pa/terrain/metal/decals/metal_decal_03.json"
     },
